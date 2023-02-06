@@ -13,7 +13,7 @@
 - New York Times Article Search API for fetching articles data
 ## How to run
 - Clone the repository or download the zip file.
--Open the index.html file in your browser.
-Enter your search criteria and click the "Search" button.
-The results of the search will be displayed below.
-To clear the results of a previous search, click the "Clear Results" button.
+- Open the index.html file in your browser.
+- Enter your search criteria and click the "Search" button.
+- The results of the search will be displayed below.
+- To clear the results of a previous search, click the "Clear Results" button.
