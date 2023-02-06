@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New York Times Search</title>
-     <!-- Bootstrap CSS CDN  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <!-- Bootstrap CSS CDN  -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
 
-  <!-- Font Awesome CSS Icons (For cool glyphicons) -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./style.css">
 
 </head>
-<body>
-     <!-- Main Bootstrap Search -->
-  <div class="container">
 
-    <!-- Jumbotron for Title -->
-    <div class="jumbotron" style="background-color: #20315A ; color: white;">
-      <h1 class="text-center">
-        <strong>
-          <i class="fa fa-newspaper-o"></i> New York Times Search</strong>
-      </h1>
-    </div>
-     <!-- Row for Searching New York Times -->
-     <div class="row">
-        <div class="col-sm-12">
-          <br>
-          <!-- First card is for handling the search parameters -->
-          <div class="card">
-            <div class="card-header">
-              <strong>
-                <i class="fa fa-list-alt"></i> Search Parameters</strong>
-            </div>
-            <div class="card-body">
-  
-              <!-- Here we create an HTML Form for handling the inputs-->
-              <form role="form">
-  
-                <!-- Here we create the text box for capturing the search term-->
-                <div class="form-group">
-                  <label for="search">Search Term:</label>
-                  <input type="text" class="form-control" id="search-term">
-                </div>
-  
+<body>
+    <!-- Main Bootstrap Search -->
+    <div class="container">
+
+        <!-- Jumbotron for Title -->
+        <div class="jumbotron" style="background-color: #20315A ; color: white;">
+            <h1 class="text-center">
+                <strong>
+                    <i class="fa fa-newspaper-o"></i> New York Times Search</strong>
+            </h1>
+        </div>
+        <!-- Row for Searching New York Times -->
+        <div class="row">
+            <div class="col-sm-12">
+                <br>
+                <!-- First card is for handling the search parameters -->
+                <div class="card">
+                    <div class="card-header">
+                        <strong>
+                            <i class="fa fa-list-alt"></i> Search Parameters</strong>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- Here we create an HTML Form for handling the inputs-->
+                        <form role="form">
+
+                            <!-- Here we create the text box for capturing the search term-->
+                            <div class="form-group">
+                                <label for="search">Search Term:</label>
+                                <input type="text" class="form-control" id="search-term">
+                            </div>
+                            <!-- Here we capture the number of records that the user wants to retrieve  -->
+                            <div class="form-group">
+                                <label for="pwd">Number of Records to Retrieve:</label>
+                                <select id="article-count" class="custom-select" aria-labelledby="dropdownMenuButton">
+                                    <option selected value="1">1</option>
+                                    <!-- Setting the option for 5 as default -->
+                                    <option value="5" selected>5</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+
+
 
 </body>
+
 </html>
