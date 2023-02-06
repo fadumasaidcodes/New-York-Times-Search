@@ -17,3 +17,6 @@
 - Enter your search criteria and click the "Search" button.
 - The results of the search will be displayed below.
 - To clear the results of a previous search, click the "Clear Results" button.
+
+## screenshot 
+![newyork](https://user-images.githubusercontent.com/102771343/216945464-17699c82-4151-4c58-ad2b-717a69472e20.JPG)
