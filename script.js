@@ -21,6 +21,15 @@ function buildQueryURL() {
 if (parseInt(startYear)) {
   queryParams.begin_date = startYear + "0101";
 }
+ // If the user provides an endYear, include it in the queryParams object
+ var endYear = $("#end-year")
+ .val()
+ .trim();
+
+ if (parseInt(endYear)) {
+    queryParams.end_date = endYear + "0101";
+  }
+
 
 
 }
