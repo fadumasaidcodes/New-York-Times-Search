@@ -30,6 +30,8 @@ if (parseInt(startYear)) {
     queryParams.end_date = endYear + "0101";
   }
 
+ // Logging the URL so we have access to it for troubleshooting
+ console.log("---------------\nURL: " + queryURL + "\n---------------");
 
 
 }
