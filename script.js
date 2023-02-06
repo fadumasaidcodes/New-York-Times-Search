@@ -5,6 +5,9 @@
 function buildQueryURL() {
     // queryURL is the url we'll use to query the API
     var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?";
-  
+   // Begin building an object to contain our API call's query parameters
+  // Set the API key
+  var queryParams = { "api-key": "R1a31F4tBjCUaM2ho8GtIFsrSdtXt30M" };
+
     
 }
