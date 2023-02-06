@@ -13,5 +13,14 @@ function buildQueryURL() {
  .val()
  .trim();
 
-    
+     // If the user provides a startYear, include it in the queryParams object
+  var startYear = $("#start-year")
+  .val()
+  .trim();
+
+if (parseInt(startYear)) {
+  queryParams.begin_date = startYear + "0101";
+}
+
+
 }
