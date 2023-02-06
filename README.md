@@ -1,3 +1,5 @@
+- [Live-website](https://fadumasaidcodes.github.io/New-York-Times-Search/)
+
 ## New York Times Search
 - A web application that allows users to search for articles from the New York Times based on a search term, number of articles to retrieve, and a date range (start year and end year).
 
